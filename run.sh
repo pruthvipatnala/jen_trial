@@ -1,3 +1,4 @@
+pytest --cov=test/ > file.txt
 if grep -Fq "failed" file.txt
 then
     # code if found
@@ -8,6 +9,7 @@ else
     git status
     git add *
     git commit -m "going to merge"
+    git push origin xyz
     git checkout master
     git merge xyz
     git push origin master
