@@ -10,4 +10,5 @@ else
     git commit -m "going to merge"
     git checkout master
     git merge origin/xyz
+    git push origin master
 fi
