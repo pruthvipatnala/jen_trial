@@ -7,6 +7,6 @@ class Simply:
     
     def perform_addition(self):
 
-        return self.a + self.b + self.c
+        return self.a + self.b + 10
 
     
