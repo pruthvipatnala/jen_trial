@@ -31,5 +31,18 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-    - name: Trigger Jenkins Job
-      uses: appleboy/jenkins-action@0.0.1
+#     - name: Trigger Jenkins Job
+#       uses: appleboy/jenkins-action@0.0.1
+#     - name: TriggerJenkinsBuild
+#       uses: stigmelling/jenkins-action@v1.1
+#       with:
+#         # URL to Jenkinsserver
+#         jenkinsUrl: http://36b87ba1.ngrok.io
+#         # Username
+#         username: pruthvipatnala
+#         # Token
+#         # token: 
+#         # Name of job
+#         job: pull_req
+#         # Json with "name":"value" params
+#         # params: # optional
