@@ -6,6 +6,6 @@ class Simply:
         self.c = 30
     
     def perform_addition(self):
-        return self.a + self.b + 30
+        return self.a + self.b + 10
 
     
